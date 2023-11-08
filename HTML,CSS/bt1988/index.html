@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Editor</title>
+</head>
+<body>
+    <button class="imgHelp" id="helpButton">Help</button>
+    <div id="main">
+        <!-- Email editor content -->
+    </div>
+    <div id="help">
+        <div class="close" id="closeButton">Close</div>
+        <!-- Help content -->
+    </div>
+
+    <script>
+        document.getElementById("helpButton").addEventListener("click", function() {
+            document.getElementById("help").style.display = "block";
+        });
+
+        document.getElementById("closeButton").addEventListener("click", function() {
+            document.getElementById("help").style.display = "none";
+        });
+    </script>
+</body>
+</html>

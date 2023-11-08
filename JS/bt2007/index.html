@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function addition(a, b) {
+    return a + b;
+}
+
+// Hàm trừ
+function subtraction(a, b) {
+    return a - b;
+}
+
+// Hàm nhân
+function multiplication(a, b) {
+    return a * b;
+}
+
+// Hàm chia
+function division(a, b) {
+    if (b !== 0) {
+        return a / b;
+    } else {
+        return "Không thể chia cho 0";
+    }
+}
+
+// Nhập giá trị a và b từ người dùng và tính toán
+function calculate() {
+    var a = parseFloat(prompt("Nhập giá trị a:"));
+    var b = parseFloat(prompt("Nhập giá trị b:"));
+
+    if (isNaN(a) || isNaN(b)) {
+        alert("Vui lòng nhập số hợp lệ.");
+    } else {
+        alert("a + b = " + addition(a, b));
+        alert("a - b = " + subtraction(a, b));
+        alert("a * b = " + multiplication(a, b));
+        alert("a / b = " + division(a, b));
+    }
+}
+
+// Gọi hàm calculate để bắt đầu tính toán
+calculate();
+</script>
+</html>

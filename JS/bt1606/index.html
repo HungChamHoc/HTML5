@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var a = parseFloat(prompt('Nhập giá trị của a'));
+var b = parseFloat(prompt('Nhập giá trị của b'));
+var c = parseFloat(prompt('Nhập giá trị của c'));
+
+// Tính delta
+var delta = b * b - 4 * a * c;
+
+// Tính các nghiệm và sử dụng document.write để in kết quả lên màn hình
+if (delta > 0) {
+    var x1 = (-b + Math.sqrt(delta)) / (2 * a);
+    var x2 = (-b - Math.sqrt(delta)) / (2 * a);
+    document.write('Phương trình có 2 nghiệm thực:<br>');
+    document.write('x1 = ' + x1 + '<br>');
+    document.write('x2 = ' + x2 + '<br>');
+} else if (delta === 0) {
+    var x = -b / (2 * a);
+    document.write('Phương trình có 1 nghiệm kép:<br>');
+    document.write('x = ' + x + '<br>');
+} else {
+    document.write('Phương trình không có nghiệm thực.<br>');
+}
+</script>
+</html>

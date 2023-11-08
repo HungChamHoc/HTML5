@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.panel{
+    background-color:grey;
+    display: flex;
+    padding-top: 10px;
+}
+.menu{
+    margin: 0 200px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding: 10px;
+    color: blue;
+    background-color:rgb(247, 245, 245);
+    border-right: solid grey 3px;
+    border-radius: 5px;
+}
+.search{
+    display: flex;
+    width:100px;
+}

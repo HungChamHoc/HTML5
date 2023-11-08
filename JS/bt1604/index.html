@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var N = parseInt(prompt('Nhập một số tự nhiên N:'));
+if (isNaN(N) || N < 1) {
+    alert('Vui lòng nhập một số tự nhiên lớn hơn hoặc bằng 1.');
+} else {
+    var triangleHTML = '';
+    for (var i = 1; i <= N; i++) {
+        for (var j = 1; j <= i; j++) {
+            triangleHTML += '* ';
+        }
+        triangleHTML += '<br>';
+    }
+    document.write(triangleHTML);
+}
+</script>
+</html>

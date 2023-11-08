@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+}
+.logo{
+    background-color: red;
+    margin: 15px;
+    color: white;
+    width: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 400px;
+}
+.nav{
+    background-color:rgb(52, 118, 218);
+    color:white;
+    height: 40px;
+}
+.nav ul{
+    display: flex;
+    padding:8px 300px;
+}
+.nav ul li{
+    list-style: none;
+    margin: 0px 10px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    margin-top: 15px;
+    width: 70%;
+}
+.left{
+    padding-bottom: 15px;
+}

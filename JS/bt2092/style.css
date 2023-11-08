@@ -1,0 +1,75 @@
+.panel {
+	width: 600px;
+	margin: 0px auto;
+	background-color: #ffffcc;
+	padding: 10px;
+}
+
+.panel h2 {
+	color: #0000cc;
+}
+
+.panel-body {
+	display: flex;
+}
+
+.panel-body .left img {
+	width: 120px;
+}
+
+.group-control {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.group-control label {
+	width: 100px;
+	color: #000066;
+	font-size: 18px;
+}
+
+.group-control input {
+	font-size: 16px;
+	padding: 4px;
+	width: 300px
+}
+
+.group-control button {
+	margin-right: 10px;
+	font-size: 16px;
+	padding: 3px 8px;
+}
+
+/* dialog */
+.dialog {
+	width: 100%;
+	height: 100%;
+	background-color: #00000078;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.dialog .dialog-content {
+	width: 300px;
+	margin: 0px auto;
+	background-color: white;
+	margin-top: 15%;
+}
+
+.dialog .dialog-body {
+	padding: 30px;
+	text-align: center;
+}
+
+.dialog .dialog-footer {
+	background-color: #ede8e8;
+	text-align: right;
+	padding: 10px;
+}
+
+.dialog .dialog-footer button {
+	font-size: 18px;
+	padding: 6px 15px;
+}

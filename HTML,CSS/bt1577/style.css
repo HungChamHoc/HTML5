@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFCC;
+}
+h2{
+    text-align: center;
+    margin-left: 25%;
+}
+nav{
+    display: flex;
+    position:absolute;
+    margin-left: 25%;
+}
+table{
+    display:none;
+}
+p{
+    border:1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color:#78e688 ;
+    position: relative;
+    margin-right: 10px;
+}

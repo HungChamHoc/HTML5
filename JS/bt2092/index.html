@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Examination Page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="panel">
+	<h2>DANG NHAP HE THONG</h2>
+	<div class="panel-body">
+		<div class="left">
+			<img src="photos/login.png">
+		</div>
+		<div class="right">
+			<div class="group-control">
+				<label>Tai khoan: </label>
+				<input type="text" name="username" id="username_id" placeholder="Enter user name">
+			</div>
+			<div class="group-control">
+				<label>Mat khau: </label>
+				<input type="password" name="pwd" id="pwd_id" placeholder="Enter password">
+			</div>
+			<div class="group-control">
+				<label>&nbsp;</label>
+				<button onclick="login()">Dang nhap</button>
+				<button onclick="resetData()">Nhap lai</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="dialog" id="dialog-id">
+	<div class="dialog-content">
+		<div class="dialog-body">
+			Dang nhap thanh cong
+		</div>
+		<div class="dialog-footer">
+			<button onclick="closeDialog()">OK</button>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

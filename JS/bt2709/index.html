@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    N = parseInt(prompt('Nhap N ='))
+    var t =[]
+    for(i=0;i<N;i++){
+        let value = parseInt(prompt(`Nhap t[${i}] =`))
+        t.push(value)
+    }
+   t.sort()
+    var result =''
+    for(i=0;i<N;i++){
+        result += `${t[i]}\n`
+    }
+    alert(result)
+    var sum = 0
+    for(i=0;i<N;i++){
+        sum+=t[i]
+    }
+    alert('Tong cac phan tu trong mang t =' + sum)    
+</script>
+</html>
